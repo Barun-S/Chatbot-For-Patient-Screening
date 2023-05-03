@@ -1,0 +1,39 @@
+.node {
+    stroke: #333;
+    stroke-width: 2px;
+    cursor: pointer;
+  }
+  
+  .node-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .node-text.yes {
+    fill: green;
+  }
+  
+  .node-text.no {
+    fill: red;
+  }
+  
+  .link {
+    stroke: #999;
+    stroke-width: 2px;
+  }
+  
+  .link.yes {
+    stroke-dasharray: 5, 5;
+    stroke: green;
+  }
+  
+  .link.no {
+    stroke-dasharray: 5, 5;
+    stroke: red;
+  }
+  
+  .link-text {
+    font-size: 14px;
+    fill: #333;
+  }
+  

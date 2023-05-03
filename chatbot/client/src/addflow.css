@@ -1,0 +1,101 @@
+
+.QuestionForm {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 70%;  
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 4rem;
+  background-color: #F0FFFF;
+}
+
+input[type="text"] {
+  width: 60%; /* Change this value as needed */
+  height:22px;
+}
+
+.heading {
+  align-self: center;
+  font-weight: bold;
+  
+}
+
+.form {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topic,
+.question
+ {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.topic {
+  width:50%;
+  align-self: center;
+  /* margin-left: 235px; */
+}
+
+.question {
+  display: flex;
+  position: relative;
+  /* width:auto; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  /* margin: 10px 237px; */
+  padding: 10px;
+  border: 1px solid black;
+  width: 90%;
+  
+}
+
+.question input[type="text"] {
+  width:89%;
+  /* color: yellowgreen; */
+  /* align-self: start; */
+}
+
+.nested-question {
+  border: 1px solid gray;
+  padding: 0.5rem;
+  margin-top: 0.5rem ;
+  width: 88%;
+}
+
+.nested-question input[type="text"] {
+  width:95%;
+  /* color: yellowgreen; */
+  /* align-self: start; */
+}
+
+button {
+  margin: 1rem;
+  height: 25px;
+  width: 200px;
+  /* align-self: center; */
+  color:white;
+  background-color: #008CBA;
+}
+
+.submit-button {
+  /* display: flex; */
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  background-color: #4CAF50;
+  align-self: center;
+}
+
+
+
