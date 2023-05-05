@@ -1,31 +1,28 @@
 # Chatbot-For-Patient-Screening
 
-Chatbot for Patient Screening
-Functionality: 
-    Chatbot: chat.js
-    Addflow: addflow.js
-    Visualize flow as tree: flowtree.js
-    Visualize flow as graph: graph/ReactFlowRenderer 	
-    2-D Drawing: canvas.js
-    Add New Symptom: addflow.js
-    3-D Drawing: medical body painter
-Steps to Run:
-Client
-    Navigate to client Directory
-    Install required packages using 
-        > npm i
-    Start Client using
-        > npm start
-Server
-    Navigate to server Directory
-        > Python server.py
+**Functionality**: 
+1. Chatbot: chat.js  
+2. Addflow: addflow.js  
+3. Visualize flow as tree: flowtree.js  
+4. Visualize flow as graph: graph/ReactFlowRenderer 	  
+5. 2-D Drawing: canvas.js  
+6. Add New Symptom: addflow.js  
+7. 3-D Drawing: medical body painter  
 
-steps to run 3-D body marker:
-    using the input option in the bottom left first openthe 
-    1.lowresfullbody.obj file
-    2.upperbody.obj file
-    3.lowerbody.obj file
-    in exactly that order
-    and open index.html to view the project 
+**Steps to Run**:  
+* Client  
+    - Navigate to `client` directory  
+      1. Install required packages using `npm i`
+    - Start client using `npm start`
+
+* Server  
+    - Navigate to `server` Directory `python server.py`
+
+* 3-D body marker:  
+    - using the **input option** in the bottom left open the following files in the exact order
+      1. `lowresfullbody.obj` file
+      2. `upperbody.obj` file
+      3. `lowerbody.obj` file
+    - then open `index.html` to view the project  
 
 
