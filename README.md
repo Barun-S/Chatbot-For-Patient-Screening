@@ -2,6 +2,7 @@
 
 **Functionality**: 
 1. Chatbot: chat.js  
+    - Contains the UI componenet of CHat Window
 2. Addflow: addflow.js  
 3. Visualize flow as tree: flowtree.js  
 4. Visualize flow as graph: graph/ReactFlowRenderer 	  
